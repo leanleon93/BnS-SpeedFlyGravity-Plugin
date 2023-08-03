@@ -15,6 +15,13 @@ A Blade & Soul Plugin primarily developed for easy ~~teleport~~ speed and fly ha
 
 Example .ini content found in this repo.
 
+## Special Hotkeys
+To use CTRL as Hotkey you need to set it up like this:  
+hotkey = -94  
+alt = 0  
+shift = 0  
+ctrl = 1  
+
 ## Usage Ingame
 - `Alt+P`: Reload .ini configs
 - `Alt+C`: Toggle `Cheater Mode`
