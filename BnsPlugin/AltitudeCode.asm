@@ -47,11 +47,11 @@ Gravity:
     jmp Exit
 
 Exit:
-    pop rax
-    pop rbx
-    pop rcx
-    pop rdx
     pop r8
+    pop rdx
+    pop rcx
+    pop rbx
+    pop rax
 
     movups [rdi+1F0h],xmm7
     jmp lpRemain
